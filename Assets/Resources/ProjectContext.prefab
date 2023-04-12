@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3549733215738303155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1283441030320275102}
+  - component: {fileID: 464367296498311407}
+  - component: {fileID: 284690547944999291}
+  m_Layer: 0
+  m_Name: ProjectContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1283441030320275102
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3549733215738303155}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &464367296498311407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3549733215738303155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4e6589720da476459dc6dd71624b071, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _scriptableObjectInstallers: []
+  _monoInstallers:
+  - {fileID: 284690547944999291}
+  _installerPrefabs: []
+  _parentNewObjectsUnderContext: 1
+  _editorReflectionBakingCoverageMode: 0
+  _buildsReflectionBakingCoverageMode: 0
+  _settings:
+    _ensureDeterministicDestructionOrderOnApplicationQuit: 0
+    _displayWarningWhenResolvingDuringInstall: 1
+    _validationRootResolveMethod: 0
+    _validationErrorResponse: 0
+    _signalSettings:
+      _defaultSyncMode: 0
+      _missingHandlerDefaultResponse: 2
+      _requireStrictUnsubscribe: 0
+      _defaultAsyncTickPriority: 1
+--- !u!114 &284690547944999291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3549733215738303155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5539057b850e984a824563f531c578f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillPack:
+    warriorSkillSet:
+      basicAttack: {fileID: 11400000, guid: dd78c2b4f20477f4d8d5cfb592c708c0, type: 2}
+      skill1: {fileID: 11400000, guid: d2e1464f2ff060d4badac3b8a0c1ca25, type: 2}
+      skill2: {fileID: 11400000, guid: 7ab7027c5ba51234eb7cc67e47cd129b, type: 2}
+    berserkerSkillSet:
+      basicAttack: {fileID: 11400000, guid: 4fa616a48ee8792438ef5dbca99ad3a8, type: 2}
+      skill1: {fileID: 11400000, guid: 4cace24368570b74aa923f3c4b2340b0, type: 2}
+      skill2: {fileID: 0}
+    battleMageSkillSet:
+      basicAttack: {fileID: 0}
+      skill1: {fileID: 0}
+      skill2: {fileID: 0}
+    battlePriestSkillSet:
+      basicAttack: {fileID: 0}
+      skill1: {fileID: 0}
+      skill2: {fileID: 0}
+    duelistSkillSet:
+      basicAttack: {fileID: 0}
+      skill1: {fileID: 0}
+      skill2: {fileID: 0}
+    assassinSkillSet:
+      basicAttack: {fileID: 0}
+      skill1: {fileID: 0}
+      skill2: {fileID: 0}
+    crossbowmanSkillSet:
+      basicAttack: {fileID: 0}
+      skill1: {fileID: 0}
+      skill2: {fileID: 0}
+    archerSkillSet:
+      basicAttack: {fileID: 11400000, guid: 027fac9dfee7144459982d179e4573e5, type: 2}
+      skill1: {fileID: 11400000, guid: 666bf11212fefbe4c92cd434688011b1, type: 2}
+      skill2: {fileID: 11400000, guid: e45c99ebaacb74249b18088b34641579, type: 2}
+    mageSkillSet:
+      basicAttack: {fileID: 11400000, guid: 78e661dcdff7605458f92cf764ccfa3e, type: 2}
+      skill1: {fileID: 11400000, guid: 10971f09845b235488cd09c481e95f42, type: 2}
+      skill2: {fileID: 11400000, guid: b60b6a086ce526045800c1a70682afb2, type: 2}
+    priestSkillSet:
+      basicAttack: {fileID: 0}
+      skill1: {fileID: 0}
+      skill2: {fileID: 0}
+  heldItemPack:
+    heldItems:
+    - {fileID: 11400000, guid: 7d3460c9684e0a748a0c34ca2caa5a8a, type: 2}
+    - {fileID: 11400000, guid: 5c89480c09a7e204b8207e79cb6676cd, type: 2}
+    - {fileID: 11400000, guid: b1d3621adeba80d48ad21febe0901d6a, type: 2}
+    - {fileID: 11400000, guid: 00f750af974529748a4e6346e4e83867, type: 2}
+    - {fileID: 11400000, guid: 42495379192e7fb489ea6c079a3f59e0, type: 2}
+    - {fileID: 11400000, guid: 3fc8ac59d7fbdda459d0553065bfe50a, type: 2}
+    - {fileID: 11400000, guid: 2adedf58cba5786409cb147cb34b331a, type: 2}
+  prefabPack:
+    prefabs:
+    - prefabType: 0
+      prefab: {fileID: 2819682127119496752, guid: df894fbb239eb934c8bc996d0a351ae9, type: 3}

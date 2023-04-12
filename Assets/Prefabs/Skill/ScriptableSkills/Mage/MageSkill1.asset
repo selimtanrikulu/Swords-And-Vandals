@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4761aed463ce8c4cb2bdd91d4ed002f, type: 3}
+  m_Name: MageSkill1
+  m_EditorClassIdentifier: 
+  skillIcon: {fileID: 21300000, guid: 6425f6c4af1d8c444b2aa6a013b98f2d, type: 3}
+  attackAnimation: {fileID: 7400000, guid: 2434c0f3a43a51a4e83060fddb882c62, type: 2}
+  skillImpact: {fileID: 8221539205868770893, guid: cb4f4d36b4e80d940b28369b5c4a1b39, type: 3}
